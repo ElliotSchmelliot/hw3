@@ -37,40 +37,18 @@
 					
 					<div class="menu-col">
 						<h3>Meat Pies:</h3>
-
-						<h4>Classic Pepperoni</h4>
-						<div class="menu-desc">Pepperoni and Mozzarella on our Spicy Tomato Sauce. <span>$10/$13/$16</span></div>
-						
-						<h4>The Hawaiin</h4>
-						<div class="menu-desc">Canadian Bacon and Pineapple with Mozzarella on a rich Tomato Sauce. <span>$12/$14/$17</span></div>
-
-						<h4>Duck, Duck, Goose</h4>
-						<div class="menu-desc">Roasted Duck and Goose with Bacon, Chestnuts on a rich Plum Sauce. <span>$15/$17/$19</span></div>
-
-						<h4>The Bambi</h4>
-						<div class="menu-desc">Slow-cooked Venison with Red Cabbage on our famous Black Cherry Sauce. <span>$15/$17/$19</span></div>
-
-						<h4>The Ultimate</h4>
-						<div class="menu-desc">Pepperoni, Bacon, Canadian Bacon, Chicken, Duck, Goose, and Ground Beef with Smoked Mozzarella on our Spicy Tomato Sauce. Add Venison or Elk for an extra $2! <span>$15/$19/$23</span></div>
+						<div id="template-meat-pie" class="js-template">
+							<h4></h4>
+							<div class="menu-desc"></div>
+						</div>
 					</div>
 
 					<div class="menu-col">
 						<h3>Vegetarian Pies:</h3>
-
-						<h4>Margherita</h4>
-						<div class="menu-desc">Mozzarella, Basil, Salt on an Olive Oil Base. <span>$10/$13/$16</span></div>
-
-						<h4>Veggie Madness</h4>
-						<div class="menu-desc">Mushroom, Black Olive, Onions, Roasted Garlic, Squash and Roasted Eggplant on our Spicy Tomato Sauce. <span>$11/$14/$17</span></div>
-
-						<h4>Forest Floor</h4>
-						<div class="menu-desc">Three kinds of mushrooms with Mozzarella on a herb Tomato Sauce. <span>$11/$14/$17</span></div>
-
-						<h4>Mr Green</h4>
-						<div class="menu-desc">Roasted Chicken with Romano on a Basil Pesto sauce. <span>$13/$16/$19</span></div>
-
-						<h4>Purple Monster</h4>
-						<div class="menu-desc">Roasted Eggplant and Cabbage stir fried in sesame oil on a rich Plum Sauce. <span>$11/$14/$17</span></div>
+						<div id="template-veg-pie" class="js-template">
+							<h4></h4>
+							<div class="menu-desc"></div>
+						</div>
 					</div>
 
 					<h2>Drinks:</h2>
@@ -89,5 +67,9 @@
 		<footer>
 			<!--#include virtual="inc/footer.html" -->
 		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="http://www.dawgpizza.com/orders/menu.js"></script>
+		<script type="text/javascript" src="js/myDawgPizza.js"></script>
 	</body>
 </html>
