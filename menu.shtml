@@ -35,28 +35,37 @@
 					</ul>
         			<p id="pizza-custom">All pizzas can be customized--add a few ingredients, or take a few off--for an extra $2.</p>
 					
-					<div class="menu-col">
-						<h3>Meat Pies:</h3>
-						<div id="template-meat-pie" class="js-template">
-							<h4></h4>
-							<div class="menu-desc"></div>
+					<div id="tester">
+						<div class="menu-col">
+							<h3>Meat Pies:</h3>
+							<div id="template-meat-pie" class="js-template">
+								<h4></h4>
+								<div class="menu-desc"></div>
+							</div>
+						</div>
+
+						<div class="menu-col">
+							<h3>Vegetarian Pies:</h3>
+							<div id="template-veg-pie" class="js-template">
+								<h4></h4>
+								<div class="menu-desc"></div>
+							</div>
 						</div>
 					</div>
-
-					<div class="menu-col">
-						<h3>Vegetarian Pies:</h3>
-						<div id="template-veg-pie" class="js-template">
-							<h4></h4>
-							<div class="menu-desc"></div>
-						</div>
-					</div>
-
+					
 					<h2>Drinks:</h2>
-					<h4>Coke, Diet Coke, Sprite, Root Beer, or Irn Bru by the can <span>($4)</span></h4>
-					<h4>Rainier Beer by the can <span>($4)</span></h4>
-					<h4>House Red Wine by the glass or bottle <span>($10/$40)</span></h4>
+					<div>
+						<div id="template-drinks" class="js-template">
+							<h4></h4>
+						</div>
+					</div>
 
 					<h2>Dessert:</h2>
+					<div>
+						<div id="template-desserts" class="js-template">
+							<h4></h4>
+						</div>
+					</div>
 					<h4>Chocolate Gelato <span>($8)</span></h4>
 					<h4>Lemon Sorbet <span>($7)</span></h4>
 					<h4>Ricotta Cheese Cake <span>($10)</span></h4>

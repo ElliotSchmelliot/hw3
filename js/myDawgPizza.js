@@ -25,5 +25,23 @@ $(function() {
 		container.append(instance);
 	}
 
-	//var containerDrinks = $("");
+	var containerDrinks = $("#template-drinks").parent();
+	var instance;
+	$.each(com.dawgpizza.menu.drinks, function() {
+		instance = $("#template-drinks").clone();
+		instance.find("h4").html(this.name + " <span></span>");
+		instance.find("span").html("($" + this.price + ")");
+		instance.removeClass("js-template");
+		containerDrinks.append(instance);
+	});
+
+	var containerDesserts = $("#template-desserts").parent();
+	var instance;
+	$.each(com.dawgpizza.menu.desserts, function() {
+		instance = $("#template-desserts").clone();
+		instance.find("h4").html(this.name + " <span></span>");
+		instance.find("span").html("($" + this.price + ")");
+		instance.removeClass("js-template");
+		containerDesserts.append(instance);
+	});
 });
