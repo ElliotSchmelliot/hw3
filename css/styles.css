@@ -150,10 +150,6 @@ main {
 
 
 /* MENU CONTENT */
-#tester {
-	overflow: hidden;
-}
-
 section h1 {
 	font-size: 250%;
 }
@@ -206,6 +202,10 @@ li img {
 	margin-left: 70px;
 	text-shadow: 2px 2px #888;
 	float: left;
+}
+
+#pizza-container {
+	overflow: hidden;
 }
 
 #menu-section h2, #menu-section p {

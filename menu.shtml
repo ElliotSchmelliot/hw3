@@ -35,7 +35,7 @@
 					</ul>
         			<p id="pizza-custom">All pizzas can be customized--add a few ingredients, or take a few off--for an extra $2.</p>
 					
-					<div id="tester">
+					<div id="pizza-container">
 						<div class="menu-col">
 							<h3>Meat Pies:</h3>
 							<div id="template-meat-pie" class="js-template">
